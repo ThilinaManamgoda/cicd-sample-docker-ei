@@ -10,4 +10,4 @@ cp -r /projects/helloword/HelloworldCompositeApplication/* /artifacts
 
 FROM <BASE>
 
-COPY --from=0 /artifacts/* /home/wso2carbon/wso2mi/repository/deployment/server/carbonapps
+COPY --from=0 /artifacts/* /home/wso2carbon/wso2mi/repository/deployment/server/carbonapps/
